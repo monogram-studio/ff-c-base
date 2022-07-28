@@ -1,0 +1,14 @@
+$font-size-base: 16px !default;
+* {
+  box-sizing: border-box;
+  &::before, &::after {box-sizing: border-box;}
+}
+html {
+  font-size: $font-size-base;
+  scroll-behavior: smooth;
+}
+body {margin: 0;}
+article, aside, footer, header, main, section {display: block;}
+[hidden] {display: none !important;}
+.ltr {direction: ltr;}
+.rtl {direction: rtl;}
